@@ -1,10 +1,13 @@
 # html2text
 
-[![Documentation](https://godoc.org/github.com/jaytaylor/html2text?status.svg)](https://godoc.org/github.com/jaytaylor/html2text)
-[![Build Status](https://travis-ci.org/jaytaylor/html2text.svg?branch=master)](https://travis-ci.org/jaytaylor/html2text)
-[![Report Card](https://goreportcard.com/badge/github.com/jaytaylor/html2text)](https://goreportcard.com/report/github.com/jaytaylor/html2text)
+[![Go Reference](https://pkg.go.dev/badge/github.com/inbucket/html2text.svg)](https://pkg.go.dev/github.com/inbucket/html2text)
+[![Build and Test](https://github.com/inbucket/html2text/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/inbucket/html2text/actions/workflows/build-and-test.yml)
+[![Report Card](https://goreportcard.com/badge/github.com/inbucket/html2text)](https://goreportcard.com/report/github.com/inbucket/html2text)
 
 ### Converts HTML into text of the markdown-flavored variety
+
+This is a permanent fork of the original
+[jaytaylor.com/html2text](https://github.com/jaytaylor/html2text) package.
 
 ## Introduction
 
@@ -21,7 +24,7 @@ It requires go 1.x or newer ;)
 ## Download the package
 
 ```bash
-go get jaytaylor.com/html2text
+go get github.com/inbucket/html2text
 ```
 
 ## Example usage
@@ -34,7 +37,7 @@ package main
 import (
 	"fmt"
 
-	"jaytaylor.com/html2text"
+	"github.com/inbucket/html2text"
 )
 
 func main() {
@@ -127,17 +130,3 @@ go test
 # License
 
 Permissive MIT license.
-
-## Contact
-
-You are more than welcome to open issues and send pull requests if you find a bug or want a new feature.
-
-If you appreciate this library please feel free to drop me a line and tell me!  It's always nice to hear from people who have benefitted from my work.
-
-Email: jay at (my github username).com
-
-Twitter: [@jtaylor](https://twitter.com/jtaylor)
-
-# Alternatives
-
-https://github.com/k3a/html2text - Lightweight
